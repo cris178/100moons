@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-100moons-dev-175150-authRole",
+            "UnauthRoleArn": "arn:aws:iam::110083123427:role/amplify-100moons-dev-175150-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::110083123427:role/amplify-100moons-dev-175150-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-100moons-dev-175150-deployment",
+            "UnauthRoleName": "amplify-100moons-dev-175150-unauthRole",
+            "StackName": "amplify-100moons-dev-175150",
+            "StackId": "arn:aws:cloudformation:us-west-2:110083123427:stack/amplify-100moons-dev-175150/b89a6c70-b9a2-11ea-b7b5-0633c0d6fb32",
+            "AmplifyAppId": "d2kvbzs0qlalc9"
+        }
+    }
+}
