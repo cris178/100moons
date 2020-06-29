@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>cien lunas</h1>
+      <h1>100 lunas</h1>
         
     </div>
   );
