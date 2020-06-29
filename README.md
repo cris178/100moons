@@ -1,6 +1,24 @@
 Cien Lunas is a React web application using AWS services such as Amplify for hosting. 
 To see how the project was initialied follow the [Amazon AWS Starter Page](https://docs.amplify.aws/cli/start/install).
 
+## AWS Hosting and Continuous Deployment CD
+
+Using AWS Amplify CLI you can add AWS features one of which is hosting and CD. Once you init your project and select your profile with the correct promissions you can use
+
+## Amplify Init
+
+In order to begin adding hosting along with the option to add continuos deployment through github. For the source directory path leave it default src which should be how the create-react-app sets up your workspace. For the build command I used npm run build which is the command I use to compile my React app after having it in a decent state. The start command for me is npm start since that's how I test using local:host. I selected the default profile I made earlier. 
+
+(Getting started with AWS Hosting)[https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html]
+
+## Add Hosting
+
+* amplify add hosting
+
+Once the initialization of the project is complete it's time to add hosting. After using amplify add hosting just follow the terminal commands until you're asked to add your github through a web browser. Continue on until you reach selecting your backend enviroment which is where you'll create one or use an existing eviroment. Add an existing role and then you can move on to the next screen to save and deploy.
+
+After you deploy you could go back to the terminal hit enter see you're amplify app url as well on the browser see the deployment process happening automatically. This is an improvement over firebase where you have to manuall do an npm run build, firebase deploy and then still add the project to github. This method handles everything with a git hub push.
+
 ## Available Scripts
 
 In the project directory, you can run:
