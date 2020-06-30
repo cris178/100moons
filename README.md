@@ -35,6 +35,28 @@ In order to work with Amplify we need some packages. aws-amplify so that we can 
 
 We need to add this to index.js in order to have the front end communicate with the backend. 
 
+
+## Connect GraphQL API and Amazon Dynamo DB database to the app
+
+The API you will be creating in this step is a GraphQL API using AWS AppSync (a managed GraphQL service) and the database will be Amazon DynamoDB (a NoSQL database).
+
+## GraphQL 
+
+GraphQL API has a default schema depending on your type of app. The schema.graphql file in the backend folder contaisn a type decorated with the @model directive will scaffold out the database table for the type (Todo table), the schema for CRUD (create, read, update, delete) and list operations, and the GraphQL resolvers needed to make everything work together. To deploy the back end use.
+
+* Amplify push
+
+(After you deploy the API)[https://docs.amplify.aws/start/getting-started/data-model/q/integration/react#deploying-the-api]
+
+You can then check the status of the project, API, and see information like the GraphQL endpoint and GraphQL API Key using the following command.
+
+* amplify status
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
