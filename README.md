@@ -21,6 +21,20 @@ Once the initialization of the project is complete it's time to add hosting. Aft
 
 After you deploy you could go back to the terminal hit enter see you're amplify app url as well on the browser see the deployment process happening automatically. This is an improvement over firebase where you have to manuall do an npm run build, firebase deploy and then still add the project to github. This method handles everything with a git hub push.
 
+## Amplify Libraries
+
+(Setting up a fullstack project.)[https://docs.amplify.aws/start/getting-started/setup/q/integration/react#initialize-a-new-backend]
+
+* npm install aws-amplify @aws-amplify/ui-react
+
+In order to work with Amplify we need some packages. aws-amplify so that we can work with amplify in this app and the ui react components.
+
+* import Amplify from "aws-amplify";
+* import awsExports from "./aws-exports";
+* Amplify.configure(awsExports);
+
+We need to add this to index.js in order to have the front end communicate with the backend. 
+
 ## Available Scripts
 
 In the project directory, you can run:
